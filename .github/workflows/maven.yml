@@ -10,7 +10,9 @@ name: Java Composition CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
 
 jobs:
   build:
